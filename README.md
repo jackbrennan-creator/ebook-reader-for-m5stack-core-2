@@ -5,7 +5,7 @@ eBook Reader for the M5Stack Core 2
 Smallest eBook reader? This is a port of the <a href="https://github.com/jackbrennan-creator/minimalist-ebook-reader">Minimalist eBook Reader for InkPlate 6</a> to the <a href="https://docs.m5stack.com/en/core/core2">M5Stack Core 2</a>. 
 The overall structure of this system is the same as that of the InkPlate 6 system. The details are described here and are not repeated in this document. In particular details of eBook file formatting remain the same.
 
-![eBook Reader](https://github.com/jackbrennan-creator/minimalist-ebook-reader/blob/main/screen.JPG)
+![eBook Reader](https://github.com/jackbrennan-creator/ebook-reader-for-m5stack-core-2/blob/main/Gallery/page1.JPG)
 
 As the original system only used a small subset of the functions from the InkPlate library, the strategy used for this port was to build a class to implement that subset on top of the M5Stack Core 2 library. This class is called “ink_plate”. The fact that the InkPlate is an eInk device, i.e. has a persistent display, and the Core 2 has an LCD display, is not a problem. For an eInk screen, graphics are defined first and then the display is updated all in one go. For a TFT display, the final update operation is null as graphics appear on the screen as they are defined. The InkPlate has three touch contacts that are not part of the display and these were used to interact with the eBook reader. The Core 2 has three built-in touch areas that are part of the display and these were used for the same purpose.
 
@@ -19,6 +19,6 @@ There is no separate documentation for this system, the PDF document for the ori
 
 This system was build using Arduino IDE 1.8.13 under macOS Sierra, running on a 2010 Macbook Pro.
 
-The M5Stack Core 2 library from https://github.com/ropg/M5Core2 was version 0.0.3.
+The <a href="https://github.com/ropg/M5Core2">M5Stack Core 2 library</a> from was version 0.0.3.
 
-https://carinasagittarius.co.uk/
+<a href="https://carinasagittarius.co.uk">Carina Sagittarius</a>
