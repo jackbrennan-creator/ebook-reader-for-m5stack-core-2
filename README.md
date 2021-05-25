@@ -3,7 +3,7 @@ eBook Reader for the M5Stack Core 2
 
 
 Smallest eBook reader? This is a port of the <a href="https://github.com/jackbrennan-creator/minimalist-ebook-reader">Minimalist eBook Reader for InkPlate 6</a> to the <a href="https://docs.m5stack.com/en/core/core2">M5Stack Core 2</a>. 
-The overall structure of this system is the same as that of the InkPlate 6 system. The details are described here and are not repeated in this document. In particular details of eBook file formatting remain the same.
+The overall structure of this system is the same as that of the InkPlate 6 system. The details are described there and are not repeated in this document. In particular details of eBook file formatting remain the same.
 
 ![eBook Reader](https://github.com/jackbrennan-creator/ebook-reader-for-m5stack-core-2/blob/main/Gallery/page1.JPG)
 
@@ -19,6 +19,6 @@ There is no separate documentation for this system, the PDF document for the ori
 
 This system was build using Arduino IDE 1.8.13 under macOS Sierra, running on a 2010 Macbook Pro.
 
-The <a href="https://github.com/ropg/M5Core2">M5Stack Core 2 library</a> from was version 0.0.3.
+The <a href="https://github.com/ropg/M5Core2">M5Stack Core 2 library</a> was version 0.0.3.
 
 <a href="https://carinasagittarius.co.uk">Carina Sagittarius</a>
