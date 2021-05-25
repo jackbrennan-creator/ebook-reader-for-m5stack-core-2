@@ -24,4 +24,4 @@ The System Information Page
 
 All Together
 
-![Composite](https://github.com/jackbrennan-creator/ebook-reader-for-m5stack-core-2/blob/main/Gallery/composite.JPG)
+![Composite](https://github.com/jackbrennan-creator/ebook-reader-for-m5stack-core-2/blob/main/Gallery/composite.jpg)
